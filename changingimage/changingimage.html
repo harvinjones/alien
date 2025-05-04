@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>changingimage</title>
+  <meta name="generator" content="Google Web Designer 14.0.4.1108">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    div {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    button {
+      height: 50px;
+      width: 50px;
+    }
+    img {
+      display: block;
+      width: 250px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body class="htmlNoPages">
+  <div>
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+    <button id="btn3">3</button>
+  </div>
+  <img src="C:/Users/User/Documents/Revelation.html/apocalypse.jpg">
+  <script src="script.js"></script>
+  <script>
+    let img = document.querySelector('img');
+    let btn1 = document.querySelector('#btn1');
+    let btn2 = document.querySelector('#btn2');
+    let btn3 = document.querySelector('#btn3');
+
+    btn1.addEventListener('click', () => {
+      img.src = 'C:/Users/User/Documents/Revelation.html/apocalypse.jpg';
+    })
+
+    btn2.addEventListener('click', () => {
+      img.src = 'C:/Users/User/Documents/Revelation.html/thech03.jpg';
+    })
+
+    btn1.addEventListener('click', () => {
+      img.src = 'C:/Users/User/Documents/Revelation.html/apocalypse.jpg';
+    })
+  </script>
+</body>
+
+</html>

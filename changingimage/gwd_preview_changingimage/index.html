@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8">
+  <title>changingimage</title>
+  <meta name="generator" content="Google Web Designer 16.3.0.0407">
+  <style type="text/css" id="gwd-text-style">p {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}</style>
+  <style type="text/css">html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-color: transparent;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 1400px;
+    -webkit-perspective: 1400px;
+    -moz-perspective: 1400px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+body * {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    height: 50px;
+    width: 50px;
+}
+img {
+    display: block;
+    width: 250px;
+    margin: auto;
+}</style>
+<style>#pagedeck { overflow: hidden !important; }</style></head>
+
+<body class="htmlNoPages">
+  <div>
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+    <button id="btn3">3</button>
+  </div>
+  <img src="apocalypse.jpg">
+  <script src="script.js"></script>
+  <script>
+    let img = document.querySelector('img');
+    let btn1 = document.querySelector('#btn1');
+    let btn2 = document.querySelector('#btn2');
+    let btn3 = document.querySelector('#btn3');
+
+    btn1.addEventListener('click', () => {
+      img.src = 'apocalypse.jpg';
+    })
+
+    btn2.addEventListener('click', () => {
+      img.src = 'C:/Users/User/Documents/Revelation.html/thech03.jpg';
+    })
+
+    btn1.addEventListener('click', () => {
+      img.src = 'apocalypse.jpg';
+    })
+  </script>
+
+
+</body></html>
