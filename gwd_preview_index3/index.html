@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8">
+  <title>alienv</title>
+  <meta name="generator" content="Google Web Designer 16.3.0.0407">
+  <style type="text/css" id="gwd-text-style">p {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}</style>
+  <style type="text/css">html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-color: transparent;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 1400px;
+    -webkit-perspective: 1400px;
+    -moz-perspective: 1400px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+body * {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    height: 20px;
+    width: 100px;
+    color: red;
+    background-color: yellow;
+    opacity: 0.3;
+}
+img {
+    display: block;
+    width: 150px;
+    margin: auto;
+}</style>
+  <style id="gwd-text-style">p {
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}</style>
+  <style>html,
+body {
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+    margin-right: 90px;
+}
+body {
+    background-color: rgb(45, 49, 56);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 1400px;
+    -webkit-perspective: 1400px;
+    -moz-perspective: 1400px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+body * {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+.gwd-img-bkzz {
+    position: absolute;
+    height: 240px;
+    left: 552px;
+    top: -46px;
+    width: 185px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+}
+.gwd-img-1p7b {
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    left: 567px;
+    top: -34px;
+}
+.gwd-img-4rxp {
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    left: 567px;
+    top: 6px;
+}
+.gwd-img-1dci {
+    position: absolute;
+    width: 77px;
+    height: 5px;
+    left: 567px;
+    top: -41px;
+}
+.gwd-img-12il {
+    position: absolute;
+    width: 77px;
+    height: 5px;
+    left: 567px;
+    top: -1px;
+}
+.gwd-img-34si {
+    position: absolute;
+    width: 108px;
+    height: 139px;
+    top: 52px;
+    left: 570px;
+}
+.gwd-img-1pef {
+    position: absolute;
+    height: 134px;
+    width: 147px;
+    left: 735px;
+    top: 42px;
+}
+.gwd-img-1hly {
+    position: absolute;
+    width: 64px;
+    height: 14px;
+    top: 12px;
+    left: 955px;
+}
+.gwd-img-12xh {
+    position: absolute;
+    width: 77px;
+    height: 8px;
+    left: 955px;
+    top: -3px;
+}
+.gwd-img-wwhs {
+    position: absolute;
+    width: 77px;
+    height: 8px;
+    top: -43px;
+    left: 955px;
+}
+.gwd-img-q213 {
+    position: absolute;
+    left: 567px;
+    width: 119px;
+    top: 40px;
+    height: 137px;
+}
+.gwd-svg-aivj {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 708px;
+    width: 196px;
+    background-image: none;
+    background-color: rgb(49, 63, 91);
+    top: -498px;
+    left: 173px;
+}
+.gwd-svg-3j64 {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 708px;
+    width: 196px;
+    background-image: none;
+    background-color: rgb(49, 63, 91);
+    left: 1233px;
+    top: -498px;
+}
+.gwd-button-js94 {
+    position: absolute;
+    height: 24px;
+    left: 944px;
+    top: 7px;
+    opacity: 0.1;
+    width: 87px;
+}
+.gwd-img-1glb {
+    position: absolute;
+    width: 866px;
+    height: 324px;
+    top: -468px;
+    left: 369px;
+}
+.gwd-img-wkfy {
+    position: absolute;
+    width: 864px;
+    height: 43px;
+    left: 368px;
+    top: -132px;
+}
+.gwd-img-ai50 {
+    position: absolute;
+    width: 862px;
+    height: 10px;
+    left: 368px;
+    top: -144px;
+}
+.gwd-img-axu5 {
+    position: absolute;
+    width: 862px;
+    height: 10px;
+    left: 368px;
+    top: -79px;
+}
+.gwd-img-1aef {
+    position: absolute;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    height: 43px;
+    left: 369px;
+    top: -68px;
+    width: 183px;
+}
+.gwd-img-lm6e {
+    position: absolute;
+    height: 43px;
+    top: -3px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 369px;
+    width: 183px;
+}
+.gwd-img-13v0 {
+    position: absolute;
+    height: 10px;
+    top: -15px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 369px;
+    width: 183px;
+}
+.gwd-img-1q56 {
+    position: absolute;
+    height: 43px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 369px;
+    width: 183px;
+    top: 63px;
+}
+.gwd-img-zwfn {
+    position: absolute;
+    height: 10px;
+    left: 368px;
+    width: 184px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 50px;
+}
+.gwd-img-1c7t {
+    position: absolute;
+    height: 43px;
+    top: -68px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 1050px;
+    width: 181px;
+}
+.gwd-img-1a5i {
+    position: absolute;
+    height: 10px;
+    top: -15px;
+    left: 1050px;
+    width: 183px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+}
+.gwd-img-7c8g {
+    position: absolute;
+    height: 43px;
+    top: -3px;
+    left: 1051px;
+    width: 181px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+}
+.gwd-img-1ki4 {
+    position: absolute;
+    height: 43px;
+    left: 1051px;
+    width: 181px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 64px;
+}
+.gwd-img-gii1 {
+    position: absolute;
+    height: 10px;
+    left: 1050px;
+    width: 184px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 50px;
+}
+.gwd-img-i6wq {
+    position: absolute;
+    height: 43px;
+    left: 369px;
+    width: 184px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 130px;
+}
+.gwd-img-1ng5 {
+    position: absolute;
+    height: 10px;
+    left: 368px;
+    width: 185px;
+    top: 117px;
+}
+.gwd-img-utto {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    top: -123px;
+    left: 383px;
+}
+.gwd-img-ehvb {
+    position: absolute;
+    width: 129px;
+    height: 16px;
+    left: 744px;
+    top: -115px;
+}
+.gwd-img-1nqn {
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    transform-origin: 32.5px 7.5px 0px;
+    -webkit-transform-origin: 32.5px 7.5px 0px;
+    -moz-transform-origin: 32.5px 7.5px 0px;
+    left: 954px;
+    top: -27px;
+}
+.gwd-button-zzmr {
+    position: absolute;
+    height: 24px;
+    width: 87px;
+    left: 945px;
+    top: -33px;
+    opacity: 0.1;
+}
+.gwd-img-1m25 {
+    position: absolute;
+    left: 879px;
+    width: 171px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: -47px;
+    height: 241px;
+}
+.gwd-img-9206 {
+    position: absolute;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 735px;
+    width: 144px;
+    top: -46px;
+    height: 45px;
+}
+.gwd-img-19ny {
+    position: absolute;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 171px;
+    left: 552px;
+    width: 498px;
+    height: 23px;
+}
+.gwd-img-13ln {
+    position: absolute;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 20px;
+    height: 26px;
+    left: 735px;
+    width: 144px;
+}
+.gwd-img-1fxx {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 383px;
+    top: -59px;
+}
+.gwd-img-1u6a {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 383px;
+    top: 6px;
+}
+.gwd-img-1qw1 {
+    position: absolute;
+    width: 65px;
+    height: 26px;
+    transform-origin: 32.5px 13px 0px;
+    -webkit-transform-origin: 32.5px 13px 0px;
+    -moz-transform-origin: 32.5px 13px 0px;
+    left: 459px;
+    top: -58px;
+}
+.gwd-img-1rjt {
+    position: absolute;
+    width: 69px;
+    height: 26px;
+    left: 455px;
+    top: 7px;
+}
+.gwd-img-1y7x {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 1156px;
+    top: -123px;
+}
+.gwd-img-ockb {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 1156px;
+    top: -59px;
+}
+.gwd-img-71g4 {
+    position: absolute;
+    width: 66px;
+    height: 26px;
+    left: 1075px;
+    top: -120px;
+}
+.gwd-img-15xu {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    left: 1156px;
+    top: 5px;
+}
+.gwd-img-1xwt {
+    position: absolute;
+    width: 77px;
+    height: 27px;
+    left: 1075px;
+    top: -57px;
+}
+.gwd-img-arft {
+    position: absolute;
+    height: 43px;
+    left: 1051px;
+    width: 181px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 131px;
+}
+.gwd-img-1nzt {
+    position: absolute;
+    height: 10px;
+    left: 1051px;
+    width: 182px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    top: 118px;
+}
+.gwd-img-19hl {
+    position: absolute;
+    width: 66px;
+    height: 26px;
+    left: 1070px;
+    top: 8px;
+}
+.gwd-img-1ile {
+    position: absolute;
+    width: 172px;
+    height: 7px;
+    left: 375px;
+    top: 196px;
+}
+.gwd-img-136j {
+    position: absolute;
+    top: -68px;
+    transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    left: 549px;
+    width: 501px;
+    height: 43px;
+}
+.gwd-button-1f9b {
+    position: absolute;
+    font-family: Roboto;
+    color: rgb(186, 192, 197);
+    left: 1087px;
+    top: 179px;
+    background-image: none;
+    background-color: rgb(255, 255, 0);
+    opacity: 1;
+    overflow: visible;
+    height: 24px;
+    width: 127px;
+}</style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular" rel="stylesheet" type="text/css">
+<style>#pagedeck { overflow: hidden !important; }</style></head>
+
+<body class="htmlNoPages">
+  <div>
+    <button id="btn1">1</button>
+    <button id="btn2">2</button>
+  </div>
+  <img src="apocalypse.jpg">
+  <script src="script.js"></script>
+  <script>
+    let img = document.querySelector('img');
+    let btn1 = document.querySelector('#btn1');
+    let btn2 = document.querySelector('#btn2');
+    let btn3 = document.querySelector('#btn3');
+
+    btn1.addEventListener('click', () => {
+      img.src = 'apocalypse.jpg';
+    })
+
+    btn2.addEventListener('click', () => {
+      img.src = 'C:/Users/User/Documents/Revelation.html/thech03.jpg';
+    })
+
+    btn1.addEventListener('click', () => {
+      img.src = 'apocalypse.jpg';
+    })
+  </script>
+  <img src="Untitled-44.png" id="Untitled-44_8" class="gwd-img-136j">
+  <img src="Untitled-l7.png" id="Untitled-l7" class="gwd-img-1p7b">
+  <img src="Untitled-11.png" id="Untitled-11" class="gwd-img-bkzz">
+  <img src="Untitled-l7.png" id="Untitled-l7_1" class="gwd-img-4rxp">
+  <img src="Untitled-9.png" id="Untitled-9" class="gwd-img-1m25">
+  <img src="Untitled-l9.png" id="Untitled-l9" class="gwd-img-1dci">
+  <img src="Untitled-l9.png" id="Untitled-l9_1" class="gwd-img-12il">
+  <img src="Untitled-o1_1.png" id="Untitled-o1_1" class="gwd-img-34si">
+  <img src="Untitled-o3.png" id="Untitled-o3" class="gwd-img-1pef">
+  <img src="Untitled-o4.png" id="Untitled-o4" class="gwd-img-1hly">
+  <img src="Untitled-n2.png" id="Untitled-n2" class="gwd-img-12xh">
+  <img src="Untitled-n2.png" id="Untitled-n2_1" class="gwd-img-wwhs">
+  <img src="Untitled-o6.png" id="Untitled-o6" class="gwd-img-q213">
+  <img src="Screenshot_38.png" id="Screenshot_38" class="gwd-img-1glb">
+  <svg data-gwd-shape="rectangle" class="gwd-svg-3j64"></svg>
+  <svg data-gwd-shape="rectangle" class="gwd-svg-aivj"></svg>
+  <img src="Untitled-22.png" id="Untitled-22" class="gwd-img-wkfy">
+  <img src="Untitled-20.png" id="Untitled-20" class="gwd-img-ai50">
+  <img src="Untitled-20.png" id="Untitled-20_1" class="gwd-img-axu5">
+  <img src="Untitled-44.png" id="Untitled-44" class="gwd-img-1aef">
+  <img src="Untitled-44.png" id="Untitled-44_1" class="gwd-img-lm6e">
+  <img src="Untitled-20.png" id="Untitled-20_2" class="gwd-img-13v0">
+  <img src="Untitled-44.png" id="Untitled-44_2" class="gwd-img-1q56">
+  <img src="Untitled-20.png" id="Untitled-20_3" class="gwd-img-zwfn">
+  <img src="Untitled-44.png" id="Untitled-44_3" class="gwd-img-1c7t">
+  <img src="Untitled-20.png" id="Untitled-20_4" class="gwd-img-1a5i">
+  <img src="Untitled-44.png" id="Untitled-44_4" class="gwd-img-7c8g">
+  <img src="Untitled-44.png" id="Untitled-44_5" class="gwd-img-1ki4">
+  <img src="Untitled-20.png" id="Untitled-20_5" class="gwd-img-gii1">
+  <img src="Untitled-44.png" id="Untitled-44_6" class="gwd-img-i6wq">
+  <img src="Untitled-20.png" id="Untitled-20_6" class="gwd-img-1ng5">
+  <img src="Untitled-23x.png" id="Untitled-23x" class="gwd-img-utto">
+  <img src="Untitled-1.png" id="Untitled-1" class="gwd-img-ehvb">
+  <img src="Untitled-o81.png" id="Untitled-o81" class="gwd-img-1nqn">
+  <button id="button_2" class="gwd-button-zzmr">Button</button>
+  <a href="https://fhdfdffh.github.io/Awakening-website/ " class="gwd-button-zzmr" target="_blank">Button</a>
+  <button id="button_1" class="gwd-button-js94">Button</button><a href="https://erviniweb.github.io/revelation/ " class="gwd-button-js94" target="_blank">Button</a>
+  <img src="Untitled-9.png" id="Untitled-9_1" class="gwd-img-9206">
+  <img src="Untitled-9.png" id="Untitled-9_2" class="gwd-img-19ny">
+  <img src="Untitled-9.png" id="Untitled-9_3" class="gwd-img-13ln">
+  <img src="Untitled-23x.png" id="Untitled-23x_1" class="gwd-img-1fxx">
+  <img src="Untitled-23x.png" id="Untitled-23x_2" class="gwd-img-1u6a">
+  <img src="Untitled-2.png" id="Untitled-2" class="gwd-img-1qw1">
+  <img src="Untitled-15.png" id="Untitled-15" class="gwd-img-1rjt">
+  <img src="Untitled-23x.png" id="Untitled-23x_3" class="gwd-img-1y7x">
+  <img src="Untitled-23x.png" id="Untitled-23x_4" class="gwd-img-ockb">
+  <img src="Untitled-17.png" id="Untitled-17" class="gwd-img-71g4">
+  <img src="Untitled-23x.png" id="Untitled-23x_5" class="gwd-img-15xu">
+  <img src="Untitled-18.png" id="Untitled-18" class="gwd-img-1xwt">
+  <img src="Untitled-44.png" id="Untitled-44_7" class="gwd-img-arft">
+  <img src="Untitled-20.png" id="Untitled-20_7" class="gwd-img-1nzt">
+  <img src="Untitled-19.png" id="Untitled-19" class="gwd-img-19hl">
+  <img src="Untitled-30.png" id="Untitled-30" class="gwd-img-1ile">
+  <button class="gwd-button-1f9b" id="jj">RETURNTOMAIN</button>
+  <p class="gwd-button-1f9b" id="jj"><a href="file:///C:/Users/User/Documents/alienx/alienx/index1.html" target="_blank">RETURNTOMAIN</a></p>
+
+
+</body></html>
